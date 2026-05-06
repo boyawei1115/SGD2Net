@@ -3,7 +3,7 @@ This repository contains the implementation of the following paper:
 > **Sparse Gain Adaptation with Dual-Domain Fusion Network for Multimodal Object Detection**
 
 ## Overview
-<img src="figures/overview.jpg" alt="overview" style="zoom:50%;" />
+<img src="figures/overview.pdf" alt="overview" style="zoom:50%;" />
 Multimodal object detection that integrates the complementary information from visible and infrared inputs is a mainstream strategy for achieving robust all-day perception. However, prevailing methods are often constrained by high training costs and insufficient exploitation of the intrinsic complementary characteristics between visible and infrared modalities.
 To address these issues, we propose a parameter-efficient multimodal detection framework integrating sparse gain adaptation and dual-domain modality-aware fusion. To maintain pretrained representations while minimizing training costs, we introduce a multi-scale sparse gain adapter, which injects sparse gains into frozen backbones via multi-scale dilated convolutions, achieving effective adaptation with minimal trainable parameters. 
 Furthermore, we develop a dual-domain modality-aware fusion module to explicitly model modality-complementary characteristics across frequency and spatial domains. 
